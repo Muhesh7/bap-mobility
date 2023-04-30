@@ -1,0 +1,71 @@
+{
+    "message": {
+        "context": {
+            "country": "IND",
+            "bpp_uri": "https://api.muhesh.studio/bpp",
+            "domain": "nic2004:60221",
+            "timestamp": "2023-04-30T04:42:16Z",
+            "bap_id": "beckn.muhesh.studio",
+            "transaction_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+            "bpp_id": "api.muhesh.studio",
+            "message_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+            "city": "std:080",
+            "core_version": "0.9.4",
+            "action": "on_search",
+            "bap_uri": "https://beckn.muhesh.studio/bap"
+        },
+        "catalog": {
+            "bpp/descriptor": {
+                "name": "Acme Taxis"
+            },
+            "bpp/providers": [
+                {
+                    "descriptor": {
+                        "name": "Acme Taxis"
+                    },
+                    "locations": [
+                        {
+                            "id": "1",
+                            "gps": "12.9164682,77.6089985"
+                        },
+                        {
+                            "id": "2",
+                            "gps": "12.91671,77.6092983"
+                        },
+                        {
+                            "id": "3",
+                            "gps": "12.9165733,77.6152167"
+                        },
+                        {
+                            "id": "4",
+                            "gps": "12.9068578,77.6044567"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "5777a0bf-9a08-49aa-a97d-1e5561a9622e",
+                            "descriptor": {
+                                "name": "Economy",
+                                "code": "RIDE"
+                            },
+                            "fulfillment_id": "fb5c84d4-1b59-4b9d-96b5-9d",
+                            "start": {
+                                "location": {
+                                    "gps": "12.9099828, 77.6118226"
+                                }
+                            },
+                            "end": {
+                                "location": {
+                                    "gps": "12.9351856, 77.62459969999999"
+                                }
+                            },
+                            "vehicle": {
+                                "category": "TAXI"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

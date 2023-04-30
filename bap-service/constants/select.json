@@ -1,0 +1,40 @@
+{
+    "context": {
+      "country": "IND",
+      "bpp_uri": "https://api.muhesh.studio/bpp",
+      "domain": "nic2004:60221",
+      "timestamp": "2023-04-30T04:43:16Z",
+      "bap_id": "beckn.muhesh.studio",
+      "transaction_id": "870782be-6757-43f1-945c-8eeaf9536259",
+      "bpp_id": "api.muhesh.studio",
+      "message_id": "432fdfd6-0457-47b6-9fac-80cbe5c0a75b",
+      "city": "std:080",
+      "core_version": "0.9.4",
+      "action": "select",
+      "bap_uri": "https://beckn.muhesh.studio/bap",
+      "max_callbacks": 3,
+      "ttl": "P120S"
+    },
+    "message": {
+      "order": {
+        "items": [
+          {
+            "id": "5777a0bf-9a08-49aa-a97d-1e5561a9622e"
+          }
+        ],
+        "fulfillment": {
+          "start": {
+            "location": {
+              "gps": "12.910458, 77.543089"
+            }
+          },
+          "end": {
+            "location": {
+              "gps": "12.9535139, 77.5710434"
+            }
+          }
+        }
+      }
+    }
+  }
+  

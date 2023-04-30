@@ -1,0 +1,58 @@
+{
+      "context": {
+        "country": "IND",
+        "bpp_uri": "https://api.muhesh.studio/bpp",
+        "domain": "nic2004:60221",
+        "timestamp": "2023-03-23T04:48:53Z",
+        "bap_id": "beckn.muhesh.studio",
+        "bpp_id": "api.muhesh.studio",
+        "transaction_id": "b580c989-f84d-4abe-af28-2c818aafce3b",
+        "message_id": "8926b747-0362-4fcc-b795-0994a6287700",
+        "city": "std:080",
+        "core_version": "0.9.4",
+        "action": "on_select",
+        "bap_uri": "https://beckn.muhesh.studio/bap"
+      },
+      "message": {
+        "order": {
+          "id": "7751bd26-3fdc-47ca-9b64-e998dc5abe68",
+          "provider": {
+            "id": "e8542642-0f4a-454c-9a9f-f46110c367a3",
+            "descriptor": {
+              "name": "Ram Mohan"
+            }
+          },
+          "items": [
+            {
+              "id": "5777a0bf-9a08-49aa-a97d-1e5561a9622e",
+              "descriptor": {
+                "name": "Auto Ride",
+                "code": "RIDE"
+              },
+              "fulfillment_id": "fb5c84d4-1b59-4b9d-96b5-9d79107432c5"
+            }
+          ],
+          "fulfillment": {
+            "id": "fulf_5cf064d5-4c0a-42d3-b73d-5f19a6f7468e",
+            "start": {
+              "location": {
+                "gps": "13.008935, 77.6444085"
+              }
+            },
+            "end": {
+              "location": {
+                "gps": "12.9711869, 77.5868122"
+              }
+            },
+            "agent": {
+              "name": "Ram Mohan",
+              "rateable": true,
+              "rating": "5"
+            },
+            "vehicle": {
+              "category": "AUTO_RICKSHAW"
+            }
+        }
+        }
+      }  
+  }
